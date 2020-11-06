@@ -31,84 +31,106 @@ journalctl -b0 -u systemd-report-entropy.service
 ## Example output:
 
 ```
--- Logs begin at Sat 2020-08-01 09:15:18 JST, end at Fri 2020-11-06 01:40:57 JST. --
-Nov 06 01:40:01 farseerfc-mbp systemd[1]: Started Start to report entropy in journal.
-Nov 06 01:40:01 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:01,821656364+09:00 2256
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[424]: starting
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:02,094607322+09:00 2257
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[467]: starting
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:02,342393182+09:00 2261
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[529]: starting
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:02,624923358+09:00 2265
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[639]: starting
-Nov 06 01:40:02 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:02,888413750+09:00 2269
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[778]: starting
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:03,130162362+09:00 2270
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[797]: starting
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:03,369049032+09:00 2271
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[864]: starting
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:03,611843147+09:00 2272
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[905]: starting
-Nov 06 01:40:03 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:03,851492751+09:00 2273
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[913]: starting
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:04,091936135+09:00 2275
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[1036]: starting
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:04,330146916+09:00 2275
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[1053]: starting
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:04,570204545+09:00 2276
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[1092]: starting
-Nov 06 01:40:04 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:04,817767855+09:00 2277
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[1117]: starting
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:05,058280321+09:00 2277
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[1125]: starting
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:05,297474806+09:00 2278
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[1132]: starting
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:05,538473136+09:00 2279
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[1139]: starting
-Nov 06 01:40:05 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:05,779119853+09:00 2282
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[1146]: starting
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:06,019094053+09:00 2287
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[1153]: starting
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:06,262658068+09:00 2293
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[1160]: starting
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:06,503870376+09:00 2296
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[1167]: starting
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:06,749538576+09:00 2299
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[1175]: starting
-Nov 06 01:40:06 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:06,990995043+09:00 2301
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[1182]: starting
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:07,232147585+09:00 2301
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[1189]: starting
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:07,476427253+09:00 2302
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[1233]: starting
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: ENTROPY 2020-11-06T01:40:07,717667752+09:00 2302
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY is-system-running:
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[1249]: running
-Nov 06 01:40:07 farseerfc-mbp systemd-report-entropy[311]: REPORT ENTROPY systemd boot finished, quit.
+-- Logs begin at Thu 2019-03-28 22:15:28 JST, end at Thu 2026-01-08 07:54:05 JST. --
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,039065879+09:00 22 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[275]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,528601478+09:00 24 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[287]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,583006383+09:00 25 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[298]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,635803013+09:00 26 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[311]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,709139758+09:00 27 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[322]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,780689390+09:00 28 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[332]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,868403187+09:00 31 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[342]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,958449758+09:00 33 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[352]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,037850641+09:00 34 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[362]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,124008337+09:00 36 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[372]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,210750558+09:00 38 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[382]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,293171454+09:00 40 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[392]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,377517725+09:00 40 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[403]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,449179832+09:00 41 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[413]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,506355838+09:00 42 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[423]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,565692194+09:00 45 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[433]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,643732202+09:00 51 sleeping 10.00000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[444]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,711799571+09:00 2235 sleeping 223.50000000000000000000 ms
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[458]: initializing
+Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,984222798+09:00 2237 sleeping 223.70000000000000000000 ms
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[471]: initializing
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:42,253016763+09:00 2238 sleeping 223.80000000000000000000 ms
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[483]: initializing
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:42,535630228+09:00 2238 sleeping 223.80000000000000000000 ms
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[494]: initializing
+Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:42,813681656+09:00 2238 sleeping 223.80000000000000000000 ms
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[519]: starting
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,137255276+09:00 2239 sleeping 223.90000000000000000000 ms
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[544]: starting
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,425112317+09:00 2239 sleeping 223.90000000000000000000 ms
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[559]: starting
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,701825695+09:00 2241 sleeping 224.10000000000000000000 ms
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[581]: starting
+Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,979455723+09:00 2243 sleeping 224.30000000000000000000 ms
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[631]: starting
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:44,274859590+09:00 2245 sleeping 224.50000000000000000000 ms
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[668]: starting
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:44,559586381+09:00 2246 sleeping 224.60000000000000000000 ms
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[728]: starting
+Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:44,833113558+09:00 2251 sleeping 225.10000000000000000000 ms
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[795]: starting
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,102937822+09:00 2252 sleeping 225.20000000000000000000 ms
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[856]: starting
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,395044639+09:00 2257 sleeping 225.70000000000000000000 ms
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[939]: starting
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,678205780+09:00 2258 sleeping 225.80000000000000000000 ms
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[1018]: starting
+Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,950649382+09:00 2259 sleeping 225.90000000000000000000 ms
+Nov 06 15:12:46 fcgpdp systemd-report-entropy[255]: is-system-running:
+Nov 06 15:12:46 fcgpdp systemd-report-entropy[1061]: running
+Nov 06 15:12:46 fcgpdp systemd-report-entropy[255]: REPORT ENTROPY systemd boot finished, quit.
 ```
-
 
