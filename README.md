@@ -31,106 +31,39 @@ journalctl -b0 -u systemd-report-entropy.service
 ## Example output:
 
 ```
--- Logs begin at Thu 2019-03-28 22:15:28 JST, end at Thu 2026-01-08 07:54:05 JST. --
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,039065879+09:00 22 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[275]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,528601478+09:00 24 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[287]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,583006383+09:00 25 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[298]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,635803013+09:00 26 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[311]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,709139758+09:00 27 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[322]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,780689390+09:00 28 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[332]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,868403187+09:00 31 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[342]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:40,958449758+09:00 33 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[352]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,037850641+09:00 34 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[362]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,124008337+09:00 36 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[372]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,210750558+09:00 38 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[382]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,293171454+09:00 40 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[392]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,377517725+09:00 40 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[403]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,449179832+09:00 41 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[413]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,506355838+09:00 42 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[423]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,565692194+09:00 45 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[433]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,643732202+09:00 51 sleeping 10.00000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[444]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,711799571+09:00 2235 sleeping 223.50000000000000000000 ms
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[458]: initializing
-Nov 06 15:12:41 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:41,984222798+09:00 2237 sleeping 223.70000000000000000000 ms
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[471]: initializing
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:42,253016763+09:00 2238 sleeping 223.80000000000000000000 ms
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[483]: initializing
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:42,535630228+09:00 2238 sleeping 223.80000000000000000000 ms
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[494]: initializing
-Nov 06 15:12:42 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:42,813681656+09:00 2238 sleeping 223.80000000000000000000 ms
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[519]: starting
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,137255276+09:00 2239 sleeping 223.90000000000000000000 ms
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[544]: starting
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,425112317+09:00 2239 sleeping 223.90000000000000000000 ms
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[559]: starting
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,701825695+09:00 2241 sleeping 224.10000000000000000000 ms
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[581]: starting
-Nov 06 15:12:43 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:43,979455723+09:00 2243 sleeping 224.30000000000000000000 ms
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[631]: starting
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:44,274859590+09:00 2245 sleeping 224.50000000000000000000 ms
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[668]: starting
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:44,559586381+09:00 2246 sleeping 224.60000000000000000000 ms
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[728]: starting
-Nov 06 15:12:44 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:44,833113558+09:00 2251 sleeping 225.10000000000000000000 ms
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[795]: starting
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,102937822+09:00 2252 sleeping 225.20000000000000000000 ms
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[856]: starting
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,395044639+09:00 2257 sleeping 225.70000000000000000000 ms
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[939]: starting
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,678205780+09:00 2258 sleeping 225.80000000000000000000 ms
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[1018]: starting
-Nov 06 15:12:45 fcgpdp systemd-report-entropy[255]: ENTROPY 2020-11-06T15:12:45,950649382+09:00 2259 sleeping 225.90000000000000000000 ms
-Nov 06 15:12:46 fcgpdp systemd-report-entropy[255]: is-system-running:
-Nov 06 15:12:46 fcgpdp systemd-report-entropy[1061]: running
-Nov 06 15:12:46 fcgpdp systemd-report-entropy[255]: REPORT ENTROPY systemd boot finished, quit.
+-- Journal begins at Mon 2020-11-30 11:05:02 JST, ends at Mon 2020-12-07 11:32:10 JST. --
+12月 07 11:30:31 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:31,703999577+09:00 ENTROPY 2273 sleeping 227.30000000000000000000 ms
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: is-system-running: initializing
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:32,028432113+09:00 ENTROPY 2278 sleeping 227.80000000000000000000 ms
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: is-system-running: initializing
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:32,275582469+09:00 ENTROPY 2281 sleeping 228.10000000000000000000 ms
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: is-system-running: initializing
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:32,530915564+09:00 ENTROPY 2296 sleeping 229.60000000000000000000 ms
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: is-system-running: initializing
+12月 07 11:30:32 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:32,776745567+09:00 ENTROPY 2306 sleeping 230.60000000000000000000 ms
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: is-system-running: initializing
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:33,019687024+09:00 ENTROPY 2308 sleeping 230.80000000000000000000 ms
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: is-system-running: starting
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:33,262886342+09:00 ENTROPY 2310 sleeping 231.00000000000000000000 ms
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: is-system-running: starting
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:33,506260356+09:00 ENTROPY 2313 sleeping 231.30000000000000000000 ms
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: is-system-running: starting
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: At 2020-12-07T11:30:33,749220139+09:00 ENTROPY 2313 sleeping 231.30000000000000000000 ms
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: is-system-running: running
+12月 07 11:30:33 imacssd systemd-report-entropy[317]: REPORT ENTROPY systemd boot finished, quit.
 ```
+
+## What do these outputs all mean?
+
+The service will start before system enters `basic.target` and report time, entropy several times per second.
+
+The output line with `is-system-running` is from `systemctl is-system-running`, which is used to determine the systemd bootup status.
+`initializing` means the system hasn't reach `basic.target`, and is most likely tring to mount local filesystems.
+`starting` is after `basic.target` and before `default.target`, when systemd is starting up system services. 
+
+You can co-relate the timestamps, entropy with other systemd units to see at which point the entropy is enough.
+
+To initialize kernel PRNG(Pseudo-Random Number Generator), that is for programs to able to read from `/dev/urandom` or `getrandom`,
+the kernel needs at least 512 bits of entropy. Therefore any value less than 512 indicates that you may want to add entropy sources.
+ 
 
